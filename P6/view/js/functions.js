@@ -1,0 +1,1 @@
+$('input[name=crear]').prop("disable","disable");

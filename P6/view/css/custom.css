@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-size: 62.5%;
+    background-position: inherit;
+    background-image: url(../img/agenda.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+strong {
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.6em;
+    font-weight: 500;
+    color: #0F4C81;
+    text-align: center;
+}
+
+header h1 span {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 2px;
+    padding: 0 4px;
+}
+
+a:link,
+a:visited {
+    background-color: #0F4C81;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header h1 span img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+main {
+    text-align: center;
+    padding: 46px;
+}
+
+main h2 {
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+main h2 strong {
+    font-weight: 600;
+}
+
+main h2 span {
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+p {
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 center;
+    position: relative;
+    color: #00B7ED;
+    font-weight: 400;
+}
+
+p.nombreEstudiantes:before,
+p.nombreEstudiantes:after {
+    width: 100px;
+    height: 1px;
+    background-color: #00B7ED;
+    content: "";
+    position: absolute;
+    top: 50%;
+
+    }
+
+p.nombreEstudiantes:before {
+    right: calc(100% + 20px);
+}
+
+p.nombreEstudiantes:after {
+    left: calc(100% + 20px)
+}
+
+
+.left{
+    float: left;
+}
+.center1{
+
+    margin: 1em;
+    text-align: center;
+
+}
+.center{
+    display:inline-block;
+    font-size:2em;
+
+}       
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
